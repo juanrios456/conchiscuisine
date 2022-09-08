@@ -1,0 +1,94 @@
+.topImage img{
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  width: 55%;
+}
+.topImage {
+  position: relative;
+  height: 70vh;
+  background-color:rgba(0, 0, 0, 0.889);
+}
+#imageBox{
+  position: absolute;
+  top: 20%;
+  left: 9%;
+  text-align: center;
+  background-color: rgb(160, 141, 141);
+  padding: 40px;
+  border-radius: 5px;
+}
+#imageBox p{
+  font-size:22px;
+}
+#imageBox a{
+  font-size: 18px;
+}
+#imageBox h1{
+  font-size: 45px;
+}
+#contactButton{
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 7px 15px;
+}
+.halfnhalf{
+  position:relative;
+  padding: 75px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80vh;
+}
+.IBlock{
+  width:55%;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  padding-right: 25px;
+}
+.TBlock{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+.TBlock h1{
+  text-align: center;
+}
+.TBlock ul{
+  list-style-type: none;
+  font-size: 24px;
+}
+.TBlock ul li{
+  padding: 10px;
+}
+.TBlock p{
+  text-indent: 25px;
+}
+@media screen and ( max-width: 1195px){
+  #imageBox{
+    left: 0;
+  }
+
+}
+@media screen and ( max-width: 900px ){
+  .topImage img{
+    width: 100%;
+  }
+  #imageBox{
+    top: auto;
+    bottom: 0;
+    left: 15px;
+    opacity: .8;
+  }
+  .topImage{
+    height:  85vh;
+  }
+  #imageBox h1{
+    font-size: 35px;
+  }
+
+}
+
