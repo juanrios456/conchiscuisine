@@ -44,15 +44,15 @@ export default function Gallery(){
           </Text>
           <Text py="10px" fontSize="lg" >
             To see a mix of images from events, catering, and food that has
-            been made. Click the "All" button below.
+            been made. Click the &quot;All&quot; button below.
           </Text>
           <Text py="10px" fontSize="lg" >
             To only see examples from catering events, or public events,
-            click the "Catering/Events" button below.
+            click the &quot;Catering/Events&quot; button below.
           </Text>
           <Text py="10px" fontSize="lg">
             To only view examples of all the food that we have prepared,
-            click the "food" button below.
+            click the &quot;food&quot; button below.
           </Text> 
           <Text
             py="10px"
