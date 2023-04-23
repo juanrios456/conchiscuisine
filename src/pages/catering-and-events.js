@@ -99,7 +99,7 @@ export default function Page(){
             <Heading size='2xl' textAlign='center' pb={3}>Events Schedule</Heading>
             <Text fontSize={'lg'}>
               Below is the list of upcoming events we will be attending. To view
-              more information about the event, location, or the food menu for the event click "Read More"
+              more information about the event, location, or the food menu for the event click &quot;Read More&quot;
             </Text>
           </Container>
           <div className={styles.eventListGrid}>
