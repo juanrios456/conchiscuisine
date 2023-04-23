@@ -1,0 +1,281 @@
+.blueButton{
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 13px;
+  background-color: var(--medium-blue);
+  transition: background-color 500ms ease-out ;
+}
+.blueButton:hover{
+  background-color: var(--light-blue);
+}
+.topSectionContainer{
+  position: relative;
+  background-color: var(--light-red);
+  box-shadow: 0 10px 20px  var(--dark-grey);
+}
+.curve2{
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  border-radius: 0 0 100% 0;
+  z-index: -1;
+}
+.curve3{
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border-radius: 100% 0 0 0;
+  z-index: -1;
+}
+.topSectionBanner{
+  height: 75px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: var(--light-green);
+  box-shadow: 0 3px 7px  var(--dark-black);
+}
+.topSectionBackground{
+  position: relative;
+  padding: 75px 10px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+.topSectionTextContainer{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.topSectionText{
+  font-size: 38px;
+  margin: 20px 0;
+}
+.topSectionEventsButton{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conchisCuisineText{
+  font-size: 55px;
+}
+.topSectionImageContainer{
+  width: 60%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.topSectionImageBox{
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topSectionImage{
+  border-radius: 15px;
+}
+.exampleSectionContainer{
+  z-index: 1;
+  padding: 45px 0;
+  position: relative;
+}
+.exampleSectionbg{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.exampleSectionCardContainer{
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 0 ;
+  font-weight: 600;
+}
+.exampleCardContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exampleCard{
+  height: 350px;
+  width: 275px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-yellow);
+  box-shadow: 0 0 10px 1px  var(--medium-black);
+}
+.exampleCardImageContainer{
+  width: 100%;
+  background-color: var(--white-grey);
+  padding: 15px 0;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardImage{
+  width: 225px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 1px  var(--medium-black);
+}
+.exampleCardTextContainer{
+  padding: 10px ;
+  font-size: 17px;
+  text-align: center;
+}
+.exampleSectionButton{
+  display: flex;
+  justify-content: center;
+}
+.serviceSectionContainer{
+  position: relative;
+  background-color: var(--light-yellow);
+  padding: 45px 0px;
+  z-index: 2;
+}
+.serviceBoxesContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.serviceBoxDivider{
+  border: 1px solid black;
+  height: 150px;
+  border-radius: 10px;
+}
+.serviceBoxContainer{
+  padding: 35px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.serviceBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondBox{
+  flex-direction: row-reverse;
+}
+.serviceImage{
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 1px  var(--medium-black);
+}
+.serviceImageContainer{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.secondBox .serviceImageContainer{
+  justify-content: end;
+}
+.serviceBoxTextContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.serviceTitle{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.serviceBoxText{
+  padding: 15px 0 10px;
+  font-size: 17.5px; 
+}
+.serviceBoxList{
+  padding-left: 19px;
+}
+.serviceButton{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1470px){
+  .topSectionImageBox{
+    max-width: 600px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1120px){
+  .serviceBoxesContainer{
+    flex-direction: column;
+  }
+  .serviceBoxDivider{
+    height: auto;
+    width: 200px;
+  }
+  .serviceBoxContainer{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .exampleSectionCardContainer{
+    grid-template-columns: 50% 50%;
+    row-gap: 45px;
+  }
+  .exampleCardContainer:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+@media screen and (max-width: 875px){
+  .topSectionBackground{
+    flex-direction: column;
+    padding: 45px 10px;
+    align-items: center;
+  }
+  .topSectionTextContainer{
+    width: 100%;
+    margin: 25px 0;
+  }
+  .topSectionImageContainer{
+    width: 95%;
+    margin: 25px 0;
+  }
+}
+@media screen and (max-width: 730px){
+  .exampleSectionCardContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .serviceBox{
+    flex-direction: column;
+  }
+  .serviceImageContainer, .serviceBoxTextContainer{
+    width: 100%;
+  }
+  .serviceTitle{
+    padding-top: 15px;
+  }
+  .serviceImageContainer, .secondBox .serviceImageContainer{
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px){
+  .topSectionImageBox{
+    height: auto;
+  }
+}

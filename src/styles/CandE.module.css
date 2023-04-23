@@ -1,0 +1,177 @@
+.bodyContainer{
+  background-image: url('../../public/backgrounds/bg.png');
+  background-repeat: initial ;
+  background-size: 300px;
+}
+.topBannerContainer{
+  position: relative;
+  background-color: var(--light-red);
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0;
+}
+.headerImageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20pt ;
+  z-index: 2;
+}
+.headerImage{
+  width: 100%;
+  max-width: 900px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px 5px black;
+}
+.headerPlateContainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: spinPlate;
+  animation-duration: 7000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spinPlate{
+  from{
+    transform: rotate(0deg); 
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.headerPlate{
+  border-radius: 100%;
+  z-index: 1;
+}
+.headerPlateItem{
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  animation-name: plateWords;
+  animation-duration: 7001ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.headerPlateItem2{
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+  top: 15%;
+  border-radius: 8%;
+  width: 200px;
+  animation-name: plateWords;
+  animation-duration: 7001ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes plateWords{
+  from{
+    transform: rotate(360deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+}
+.firstSVG{
+  rotate: 180deg;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+.container1{
+  padding: 45pt 10pt ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('../../public/backgrounds/Untitled-4.svg');
+  background-position: center;
+  background-size: cover;
+}
+.secondSVG{
+  position: absolute;
+  top: -5px;
+  min-width: 1200px;
+  width:110%;
+  z-index: -1;
+}
+.section1{
+  box-shadow: 1px 1px 10px  var(--medium-blue);
+  background-image: linear-gradient(0deg, var(--bright-yellow-30-o), var(--salmon));
+  border-radius: 25px;
+}
+
+.eventListGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  column-gap: normal;
+  row-gap: 40pt;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10pt 30pt;
+}
+.container2{
+  background-image: url('../../public/backgrounds/Untitled-5.svg');
+  background-position: 0px 0px;
+  background-size: cover;
+  position: relative;
+  padding: 70px 10px;
+}
+.eventsSection{
+  display: flex;
+  z-index: 2;
+  flex-direction: row;
+}
+.eventsImage{
+  max-width: 500px;
+  width: 100%;
+  object-fit:cover;
+  border-radius: 25px;
+}
+.container3{
+  position: relative;
+  z-index: 1;
+  padding: 70px 10px;
+  background-color: rgba(255, 255, 255, 0.58);
+}
+.section3bg{
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 1280px){
+  .eventListGrid{
+    grid-template-columns: repeat(2, 48%);
+    column-gap: 30px;
+  }
+  .eventsSection{
+    flex-direction: column;
+  }
+  .eventsTextPadding{
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .topBannerContainer{
+    flex-direction: column;
+  }
+  .headerImage{
+    max-width: 700px;
+  }
+  .eventListGrid{
+    display: flex;
+    flex-direction: column;
+  }
+}

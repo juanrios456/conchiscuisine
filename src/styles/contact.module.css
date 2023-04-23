@@ -1,0 +1,29 @@
+.topSectionContainer{
+  background-color: var(--light-yellow);
+}
+.contactFormContainer{
+  background-color: var(--white-grey);
+  padding: 45px 0 ;
+}
+.buttonsSectionContainer{
+  padding: 50px 1rem;
+  background-color: var(--light-blue);
+}
+.buttonsContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.buttonsBox{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+@media screen and (max-width: 400px){
+  .buttonsContainer{
+    display: flex;
+    flex-direction: column;
+  } 
+}

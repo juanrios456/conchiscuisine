@@ -1,0 +1,229 @@
+
+.navBar{
+  background-color: var(--light-red);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.navLogoContainer{
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+.navLinksContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 66%;
+}
+.navLogo {
+  width: 95px;
+  transition: background-color 0.5s ease-out ;
+  height: auto;
+  border-radius: 15px;
+  padding: 5px;
+}
+.navDropdownX, .navDropdownHamburger {
+  padding: 10px;
+  border-radius: 15px;
+  transition: background-color 0.5s ease-out ;
+}
+.navDropdownSymbols{
+  display: none;
+}
+.navDropdownX:hover,
+.navDropdownHamburger:hover{
+  cursor: pointer;
+  background-color: var(--light-yellow);
+}
+.navLogo:hover{
+  background-color: var;
+  background-color: var(--light-yellow);
+}
+.navLinks{
+  margin: 0px 2px;
+  padding: 8px;
+  border-radius: 9px;
+  font-size: 17px;
+  transition: background-color 0.5s ease-in-out;
+}
+.navLinks:hover{
+  background-color: var(--light-yellow);
+}
+.footer{
+  background-color: var(--light-red);
+  padding: 45px 0 30px;
+}
+.footerContentContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerLogoContainer{
+  border-radius: 5px;
+  display: flex;
+}
+.footerLogo{
+  width:111px;
+  height: auto;
+}
+.footerLogoLink{
+  padding: 5px;
+  border-radius: 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+.footerLogoLink:hover{
+  background-color: var(--light-yellow);
+}
+.footerSocialsContainer{
+  margin: 10px;
+  display: flex;
+}
+.footerSocialIcons{
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+.footerSocialIcons:hover{
+  background-color: var(--light-yellow);
+}
+.footerIcons{
+  border-radius: 5px;
+}
+.footerPageLinksContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footerPageLinks{
+  font-size: 17px;
+  margin: 0 3px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  transition: background-color 0.5s ease-in-out;
+}
+.footerPageLinks:hover{
+  background-color: var(--light-yellow);
+}
+.footerLinksDivider{
+  border: 1.5px solid black;
+  border-radius: 10px;
+  height: 16px;
+}
+.bottomBranding{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.bottomBranding a{
+  text-decoration: underline;
+  color: #4643eb;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.5s ease-in-out;
+  font-size: 15px;
+}
+.bottomBranding a:hover{
+  background-color: var(--light-yellow);
+}
+@media screen and (max-width: 840px) {
+  .navDropdownX{
+    display: none;
+  }
+  .navLinksContainer{
+    display: none;
+    opacity: 0;
+    transition: all 1s;
+  }
+  .navLogoContainer{
+    width: 50%;
+    justify-content: left;
+  }
+  .navDropdownSymbols{
+    width:50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .removeHamburger{
+    display: none;
+  }
+  .enterX{
+    display: block;
+  }
+  .navLinksContainer.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    background-color: var(--light-red);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    z-index: 3;
+  }
+  .navLinks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0;
+  }
+}
+@media screen and (max-width: 550px){
+  .footerContentContainer{
+    padding: 3px;
+    display:grid;
+    grid-template-columns:  50% 50%;
+  }
+  .footerLogoContainer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerSocialsContainer{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .footerPageLinksContainer{
+    margin: 10px;
+    grid-row: 2;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footerSocialIcons{
+    margin:  10px;
+  }
+  #footerPhoneIcon{
+    width: 27px;
+    height: 35px;
+  }
+  #footerGmailIcon{
+    width: 30px;
+    height: auto;
+  }
+  .footerPageLinks{
+    margin: 7px 0;
+  }
+  .footerLinksDivider{
+    display: none;
+  }
+  .bottomBranding{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
