@@ -99,7 +99,7 @@ export function Footer (){
           </Link>
         </div>
         <div className='footerSocialsContainer'>
-          <a href="https://www.facebook.com/conchiscuisine" target='_blank' className='footerSocialIcons'>
+          <a href="https://www.facebook.com/conchiscuisine" target='_blank' rel="noreferrer" className='footerSocialIcons'>
             <Image
               src="/social-icons/facebook-icon.png"
               className='footerIcons'
@@ -108,7 +108,7 @@ export function Footer (){
               alt="Facebook Icon"
             />
           </a>
-          <a href="https://wa.me/17859251692" target='_blank' className='footerSocialIcons'>
+          <a href="https://wa.me/17859251692" target='_blank' rel="noreferrer" className='footerSocialIcons'>
             <Image
               src="/social-icons/whatsapp-icon.png"
               className='footerIcons'
@@ -117,7 +117,7 @@ export function Footer (){
               alt="Whatsapp Icon"
             />
           </a>
-          <a href="mailto:conchiscuisine@gmail.com"  target='_blank' className='footerSocialIcons'>
+          <a href="mailto:conchiscuisine@gmail.com"  target='_blank' rel="noreferrer" className='footerSocialIcons'>
             <Image
               src="/social-icons/gmail-icon.png"
               className='footerIcons'
