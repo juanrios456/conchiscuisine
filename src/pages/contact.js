@@ -62,7 +62,7 @@ export function SocialLinks(){
         <Heading data-aos="fade-up" textAlign='center'>Follow Us</Heading>
           <div data-aos="fade-up" className={styles.buttonsContainer} >
             <div className={styles.buttonsBox}>
-              <a href="https://www.facebook.com/conchiscuisine" target='_blank' >
+              <a href="https://www.facebook.com/conchiscuisine" target='_blank' rel="noreferrer">
                 <Button
                   colorScheme='facebook'
                   leftIcon={<FaFacebook/>}
@@ -73,7 +73,7 @@ export function SocialLinks(){
               </a>  
             </div>
             <div className={styles.buttonsBox}>
-              <a href="https://wa.me/17859251692" target='_blank' >
+              <a href="https://wa.me/17859251692" target='_blank' rel="noreferrer" >
                 <Button
                   colorScheme='whatsapp'
                   leftIcon={<FaWhatsappSquare/>}
@@ -84,7 +84,7 @@ export function SocialLinks(){
               </a>
             </div>
             <div className={styles.buttonsBox}>
-              <a href="mailto:conchiscuisine@gmail.com" target="_blank">
+              <a href="mailto:conchiscuisine@gmail.com" target="_blank" rel="noreferrer">
                 <Button
                   backgroundColor={'blue.400'}
                   leftIcon={<SiGmail/>}
