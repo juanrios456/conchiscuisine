@@ -63,9 +63,9 @@ export default function About(){
               I learned how to cook since I was a little girl but I remember the specific day that I discovered that not only was it
               something that I enjoyed, but it was also a necessity because it was important to help my parents get through economically
               difficult times like any other family. My mother, who was very worried and afflicted with pain told me when I was 8 years old
-              'I need to go wash some clothes and today you need to be in charge of making food for your dad and brothers once they
-              come back from work.' I nervously responded by saying 'Sure mom don't worry just tell me what I need to do' and that is how I learned.
-              It was fun because at that age everything was like a game I still wasn't aware of responsibilities. After I was finished making the
+              &apos;I need to go wash some clothes and today you need to be in charge of making food for your dad and brothers once they
+              come back from work.&apos; I nervously responded by saying &apos;Sure mom don&apos;t worry just tell me what I need to do and that is how I learned.
+              It was fun because at that age everything was like a game I still wasn&apos;t aware of responsibilities. After I was finished making the
               food just as my mom had told me, everyone came in to eat and as they were leaving my dad gave me a hug and told me the food was
               delicious. For me this was the beginning of my adventures in the kitchen.
             </Text>
@@ -76,15 +76,15 @@ export default function About(){
               to school so I could sell it all, and when I was 10 years old my dad bought me a wheelbarrow where I carried drinks, candy, and bracelets.
               I would walk many blocks so I could get to the market where I would sell all of my items. When I was 13 years old I had to leave the
               village to go find work and fill myself with more experience and knowledge that I longed for. I had thousands of experiences both good and bad
-              that cause my heart and mind to strengthen. Life and its circumstances I've always said that things don't just happen. I waited many years
+              that cause my heart and mind to strengthen. Life and its circumstances I&apos;ve always said that things don&apos;t just happen. I waited many years
               for an opportunity to make my dreams come true, my first victory was making my first plate and my second which is also the most important,
               was the privelege of being a mother. 
             </Text>
             <Heading size={'lg'} pt={6}>When did you first start to sell things?</Heading>
             <Text fontWeight='semibold' py='10px' data-aos='fade-up' pl={5}>
               I learned how to sell since I was 5 years old my mom would prepare gelatin in a cup and I would walk the streets going door to door, or announcing
-              it to the public yelling "Gelatinas compren gelatinas" on occasions I would sell and on others I would have some owe me but I always knew that
-              business worked like that at times. Sometimes I would give them away to other kids because I knew they wanted one but didn't have the money to buy it.
+              it to the public yelling &quot;Gelatinas compren gelatinas&quot; on occasions I would sell and on others I would have some owe me but I always knew that
+              business worked like that at times. Sometimes I would give them away to other kids because I knew they wanted one but didn&apos;t have the money to buy it.
             </Text>
             <Heading size={'lg'} pt={6}>What is your favorite dish to cook?</Heading>
             <Text fontWeight='semibold' py='10px' data-aos='fade-up' pl={5}>
@@ -93,8 +93,8 @@ export default function About(){
             <Heading size={'lg'} pt={6}>What has inspired you?</Heading>
             <Text fontWeight='semibold' py='10px' data-aos='fade-up' pl={5}>
               My children inspire me to keep moving forward and become stronger every day to show them that what you persever in life, reach it and we should never
-              put our dreams to the side and quoting an old client "Tonight I am satisfied with my services your work is very hard and is not easy, for that very
-              reason not anyone can do it." Those words inspire me to keep moving forward. <br/>
+              put our dreams to the side and quoting an old client &quot;Tonight I am satisfied with my services your work is very hard and is not easy, for that very
+              reason not anyone can do it.&quot; Those words inspire me to keep moving forward. <br/>
               Thank you very much 
             </Text>
             <Text fontWeight='bold' textAlign={'center'} py={50} data-aos='fade-up' fontSize={'2xl'} pl={5}>
