@@ -152,7 +152,7 @@ export function Footer (){
           <Link href="/catering-and-events" as="/catering-and-events" className='footerPageLinks'>Catering/Events</Link>
         </div>
         <div className='bottomBranding'>
-            <p>Website Created By <a href="mailto:juanriis456@gmail.com" target="_blank">Juan Rios</a></p>      
+            <p>Website Created By <a href="mailto:juanriis456@gmail.com" target="_blank" rel="noreferrer">Juan Rios</a></p>      
         </div>
       </div>
     </div>
