@@ -46,7 +46,7 @@ export function Section1(){
             Conchis Cuisine Authentic Mexican Food | Food vendor in Topeka Kansas that offers authentic mexican food, desserts, and aguas frescas(natural juices)
           </title>
           <meta name="description" content="Our services include catering parties, weddings, luncheons pop up truck, school events, and food truck events such as carnivals, fairs, festivals, rodeos, and more. Primarily in Topeka but we also visit events in surrounding cities like Kansas City Ks, Kansas City Mo, Emporia Ks, Manhattan KS, Alma KS,. Some of our food options are tacos, tortas, burritos, flautas, corn, cakes, empanadas, gelatin flan, chocoflan, ice cream, popsicles, and aguas frescas."/>
-          <meta property="og:title" content"Conchis Cuisine Authentic Mexican Food | Tacos, Tortas, burritos, cakes, gelatin , aguas frescas and more!"/>
+          <meta property="og:title" content="Conchis Cuisine Authentic Mexican Food | Tacos, Tortas, burritos, cakes, gelatin , aguas frescas and more!"/>
           <meta property="og:description" content="Food Truck in the Topeka Kansas area serving food, desserts and drinks in neighboring cities as well. Services include pop up truck, party catering, office luncheons, weddings, festivals and more./>
           <meta property="og:type" content="website"/>
           <meta property="og:image" content="https://www.conchiscuisine.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdessert-cup.4eba89fe.png&w=1920&q=75"/>
