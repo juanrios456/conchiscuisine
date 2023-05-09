@@ -4,6 +4,7 @@ import styles from "../styles/contact.module.css";
 import { useState } from 'react';
 import { FaFacebook, FaWhatsappSquare } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import Head from "next/head";
 import { BsTelephoneFill } from 'react-icons/bs';
 
 const initValues = {
@@ -31,6 +32,17 @@ export function ContactBody(){
   return(
   <>
     <div className={styles.topSectionContainer}>
+    <Head>
+          <title>
+            Contact Conchis Cuisine
+          </title>
+          <meta name="description" content="Contact Conchis about about any food vendor event, food truck event, party, wedding, lunch, pop up truck, catering, including drinks and desserts.  "/>
+          <meta property="og:title" content="Contact Conchis Cuisine"/>
+          <meta property="og:description" content="Book Conchis Cuisine for your next event!"/>
+          <meta property="og:image" content="https://conchiscuisine.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffiesta-line.72984c46.png&w=3840&q=75"/>
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.conchiscuisine.com/contact"/>
+     </Head>
     <Container
       maxW="750px"
       py="45px"
