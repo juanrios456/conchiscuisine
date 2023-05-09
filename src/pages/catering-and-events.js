@@ -71,6 +71,7 @@ export default function Page(){
           <meta property="og:image" content="https://conchiscuisine.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffiesta-line.72984c46.png&w=3840&q=75"/>
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.conchiscuisine.com/catering-and-events"/>
+          <link rel="icon" href="/logo.png" sizes="any"/>
       </Head>
       <div className={styles.topBannerContainer}>
 <svg className={styles.firstSVG} id="visual" viewBox="0 0 1500 750" xmlns="http://www.w3.org/2000/svg"  version="1.1"><rect x="0" y="0"  fill="#f2f2f2"></rect><path d="M0 250L214 352L429 343L643 318L857 254L1071 216L1286 281L1500 348L1500 801L1286 801L1071 801L857 801L643 801L429 801L214 801L0 801Z" fill="#fe4141"></path><path d="M0 423L214 378L429 448L643 365L857 369L1071 391L1286 433L1500 412L1500 801L1286 801L1071 801L857 801L643 801L429 801L214 801L0 801Z" fill="#ff7226"></path><path d="M0 537L214 508L429 481L643 486L857 499L1071 425L1286 552L1500 532L1500 801L1286 801L1071 801L857 801L643 801L429 801L214 801L0 801Z" fill="#ff9d00"></path><path d="M0 585L214 569L429 639L643 595L857 564L1071 601L1286 574L1500 632L1500 801L1286 801L1071 801L857 801L643 801L429 801L214 801L0 801Z" fill="#ffc700"></path><path d="M0 688L214 678L429 656L643 648L857 647L1071 643L1286 641L1500 690L1500 801L1286 801L1071 801L857 801L643 801L429 801L214 801L0 801Z" fill="#f5f107"></path></svg>
