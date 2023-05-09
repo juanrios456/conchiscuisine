@@ -63,7 +63,7 @@ export default function Page(){
     <div className={`${styles.bodyContainer}`}>
       <Head>
           <title>
-            Conchis Cuisine's upcoming events list | Examples of Conchis Cuisine Services
+            Conchis Cuisine&apos;s upcoming events list | Examples of Conchis Cuisine Services
           </title>
           <meta name="description" content="Find Conchis Cuisine and keep track of our upcoming events, along with menus, directions, and location of events."/>
           <meta property="og:title" content="View Upcoming Events with Conchis Cuisine"/>
