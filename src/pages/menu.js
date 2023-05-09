@@ -1,6 +1,7 @@
 import { Container, Heading, Tab, TabPanel, TabList, TabPanels, Tabs, Text, UnorderedList, ListItem, } from '@chakra-ui/react';
 import { AiFillStar } from 'react-icons/ai';
 import styles from '../styles/menu.module.css';
+import Head from "next/head";
 import {
   flautasArray,
   tacosArray,tortasArray,
@@ -24,6 +25,17 @@ export default function Menu(){
   return(
     <>
       <div className={styles.bodyContainer}>
+      <Head>
+          <title>
+            Conchis Cuisine Menu
+          </title>
+          <meta name="description" content="View the conchis cuisine full menu including menu items, meats, drinks, desserts, and side dishes. Including Tacos, tortas, burritos, flan, empanadas, tres leches cakes, gelatin, jell-o, elote, horcata, steak, pastor, asada, beef, pork, chicken, and ice cream."/>
+          <meta property="og:title" content="Conchis Cuisine Menu"/>
+          <meta property="og:description" content="View Conchis Cuisines Full menu"/>
+          <meta property="og:image" content="https://conchiscuisine.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdessert-cup.4eba89fe.png&w=1920&q=75"/>
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.conchiscuisine.com/menu"/>
+     </Head>
         <Container py='30px' maxW='600px' bgColor={'blue.100'} borderRadius={'15px'} data-aos='fade-up'>
           <Heading textAlign='center' >Menu</Heading>
           <Text py='10px'>
