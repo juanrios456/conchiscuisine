@@ -1,6 +1,7 @@
 import { Container, Heading, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react";
 import styles from "../styles/gallery.module.css";
 import Image from "next/image";
+import Head from "next/head";
 //Event Images
 import cakeEvent from "../../public/gallery/events/cake-event.png";
 import cooking from "../../public/gallery/events/cooking.png";
@@ -27,6 +28,17 @@ export default function Gallery(){
   return(
     <>
       <div className={styles.pageContainer}>
+      <Head>
+          <title>
+            Conchis Cuisine Image Gallery
+          </title>
+          <meta name="description" content="Contact Conchis about about any food vendor event, food truck event, party, wedding, lunch, pop up truck, catering, including drinks and desserts.  "/>
+          <meta property="og:title" content="Conchis Cuisine Image Gallery"/>
+          <meta property="og:description" content="View pictures of our menu items, cooking, and our participation in numerous events."/>
+          <meta property="og:image" content="https://conchiscuisine.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffiesta-line.72984c46.png&w=3840&q=75"/>
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.conchiscuisine.com/gallery"/>
+     </Head>
         <Heading textAlign="center" data-aos="fade-up">Gallery</Heading>
         <Container
           maxW="750px"
