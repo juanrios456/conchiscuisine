@@ -36,7 +36,7 @@ export default function About(){
           <meta property="og:description" content="Learn about how Conchis Cuisine was started and the journey it took to get there."/>
           <meta property="og:image" content="https://conchiscuisine.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffiesta-line.72984c46.png&w=3840&q=75"/>
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.conchiscuisine.com/about-us">
+          <meta property="og:url" content="https://www.conchiscuisine.com/about-us"/>
      </Head>
       <div className={styles.topBanner}>
 <svg id="visual" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg" version="1.1"className={styles.curve}><path d="M0 45L160 100L320 51L480 61L640 137L800 46L960 152L1120 81L1280 151L1440 41L1440 301L1280 301L1120 301L960 301L800 301L640 301L480 301L320 301L160 301L0 301Z" fill="#fe4141"></path><path d="M0 175L160 115L320 104L480 165L640 126L800 186L960 183L1120 110L1280 128L1440 98L1440 301L1280 301L1120 301L960 301L800 301L640 301L480 301L320 301L160 301L0 301Z" fill="#fe6966"></path><path d="M0 151L160 224L320 230L480 200L640 166L800 149L960 165L1120 229L1280 226L1440 172L1440 301L1280 301L1120 301L960 301L800 301L640 301L480 301L320 301L160 301L0 301Z" fill="#f98a89"></path><path d="M0 263L160 207L320 239L480 248L640 233L800 230L960 271L1120 223L1280 207L1440 268L1440 301L1280 301L1120 301L960 301L800 301L640 301L480 301L320 301L160 301L0 301Z" fill="#eea9a9"></path></svg>
