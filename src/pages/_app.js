@@ -22,8 +22,8 @@ export default function App({ Component, pageProps }) {
   }, []);
   return (
   <ChakraProvider>
-       <Script strategy='lazyOnLoad' src="https://www.googletagmanager.com/gtag/js?id=G-SN6T68SP47"/>
-<Script strategy='lazyOnLoad'>
+       <Script id='ga4-property-part-1' strategy='lazyOnLoad' src="https://www.googletagmanager.com/gtag/js?id=G-SN6T68SP47"/>
+<Script id='ga4-property-part-2' strategy='lazyOnLoad'>
 {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
