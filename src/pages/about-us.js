@@ -28,14 +28,6 @@ export default function About(){
   return(
     <div className={styles.bodyContainer}>
     <Head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SN6T68SP47"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SN6T68SP47');
-</script>
           <title>
             About Conchis Cuisine
           </title>
