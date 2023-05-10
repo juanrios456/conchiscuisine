@@ -6,7 +6,6 @@ import * as React from 'react'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import Script from 'next/script';
 
 
 
@@ -22,16 +21,6 @@ export default function App({ Component, pageProps }) {
   }, []);
   return (
   <ChakraProvider>
-       <Script id='ga4-property-part-1' strategy='lazyOnLoad' src="https://www.googletagmanager.com/gtag/js?id=G-NC5MH4VL4P"/>
-<Script id='ga4-property-part-2' strategy='lazyOnLoad'>
-{`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NC5MH4VL4P');
-  `}
-</Script>
     <Layout>
       <Component {...pageProps} />
     </Layout>
