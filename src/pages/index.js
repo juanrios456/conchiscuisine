@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import Script from 'next/script';
 import styles from "../styles/index.module.css";
 import wideImage from "../../public/index-images/index-top-image.png";
 import trompoImage from "../../public/index-images/trompo-image.png";
@@ -54,16 +53,6 @@ export function Section1(){
           <meta property="og:url" content="https://www.conchiscuisine.com"/>
           <link rel="icon" href="/logo.png" sizes="any"/>
         </Head>
-       <Script id='ga4-property-part-1' strategy='lazyOnLoad' src="https://www.googletagmanager.com/gtag/js?id=G-NC5MH4VL4P"/>
-<Script id='ga4-property-part-2' strategy='lazyOnLoad'>
-{`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NC5MH4VL4P');
-  `}
-</Script>
         <span className={styles.topSectionBanner}></span>
         <div data-aos='fade-up' className={styles.topSectionBackground}>
           <div className={styles.topSectionTextContainer}>
