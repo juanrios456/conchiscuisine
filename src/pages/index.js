@@ -54,15 +54,13 @@ export function Section1(){
           <meta property="og:url" content="https://www.conchiscuisine.com"/>
           <link rel="icon" href="/logo.png" sizes="any"/>
         </Head>
-       <Script id='ga4-property-part-1' strategy='lazyOnLoad' src="https://www.googletagmanager.com/gtag/js?id=G-NC5MH4VL4P"/>
-<Script id='ga4-property-part-2' strategy='lazyOnLoad'>
-{`
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-NC5MH4VL4P"/>
+<Script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-NC5MH4VL4P');
-  `}
 </Script>
         <span className={styles.topSectionBanner}></span>
         <div data-aos='fade-up' className={styles.topSectionBackground}>
