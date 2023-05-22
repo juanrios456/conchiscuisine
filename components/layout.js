@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 import { Children } from 'react'
 import navLogo from "../public/logo.png"
 import navHamburger from "../public/nav-hamburger.png"
@@ -27,6 +28,19 @@ function closeNavbarDropdown(){
 export default function Layout({children}){
   return(
   <>
+    <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-NC5MH4VL4P"
+        strategy="afterInteractive"
+      />
+    <Script id="google-analytics" strategy="afterInteractive">
+        {`          
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-NC5MH4VL4P');
+        `}
+      </Script>
     <Navbar/>
       <main>{children}</main>
     <Footer/>
