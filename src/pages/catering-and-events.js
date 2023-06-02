@@ -29,17 +29,38 @@ export default function Page(){
   //  },
     {
       id: 1,
-      title: 'Barbs County Barn Vendors Market',
+      title: 'Unbound Gravel Race',
       date: '06/03/23',
-      location: '4008 SW Topeka Blvd, Topeka, KS 66609',
-      description: 'Local vendors come by and set up for a vendors market, both inside and outside.',
+      location: 'Downtown Emporia, Kansas',
+      description: 'Bike racing recognized nationally with a wide variety of racing events. Many food vendors and volunteers get together and have a good time with the local community.',
     },
     {
       id: 2,
-      title: 'Private Catering Event',
-      date: '06/04/23',
-      location: 'XXXXXXXXX',
-      description: 'Private catering event.',
+      title: 'Third Friday Art Walk',
+      date: '06/16/23',
+      location: '609 N 6th St, Kansas City, KS 66101',
+      description: 'Third friday art walk supports all of the local artists, chefs, and more. Stop by to view all of the work and stay for the community!'
+    },
+    {
+      id: 3,
+      title: 'La Plasita',
+      date: '06/10/23',
+      location: 'Central Ave & N 12th St. Kansas City, Kansas 66102',
+      description: 'Every saturday vendors are set up in bethany park to sell food, drinks, toys, and many souvenirs. Hosted by CABAKCK. '
+    },
+    {
+      id: 4,
+      title: 'La Plasita',
+      date: '06/17/23',
+      location: 'Central Ave & N 12th St. Kansas City, Kansas 66102',
+      description: 'Every saturday vendors are set up in bethany park to sell food, drinks, toys, and many souvenirs. Hosted by CABAKCK. '
+    },
+    {
+      id: 5,
+      title: 'La Plasita',
+      date: '06/24/23',
+      location: 'Central Ave & N 12th St. Kansas City, Kansas 66102',
+      description: 'Every saturday vendors are set up in bethany park to sell food, drinks, toys, and many souvenirs. Hosted by CABAKCK. '
     },
   ];
 
