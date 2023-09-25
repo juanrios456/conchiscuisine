@@ -4,7 +4,7 @@
 }
 .galleryContainer{
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(auto-fit,minmax(350px, 100px));
   gap: 45px;
   justify-content: center;
   align-items: center;
@@ -13,11 +13,6 @@
 .image{
   border-radius: 15px;
   box-shadow: 2px 2px 10px 5px var(--medium-grey);
-}
-@media screen and (max-width: 920px){
-  .galleryContainer{
-    grid-template-columns: repeat(2, 250px);
-  }
 }
 @media screen and (max-width: 630px){
   .galleryContainer{
@@ -32,7 +27,7 @@
     justify-content: center;
   }
   .image{
-    max-width: 250px;
+    max-width: 350px;
     width: 100%;
   }
 }
