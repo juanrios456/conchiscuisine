@@ -29,38 +29,38 @@ export default function Page(){
   //  },
     {
       id: 1,
-      title: 'Unbound Gravel Race',
-      date: '06/03/23',
+      title: 'Dia de los Muertos (Emporia)',
+      date: '10/28/23',
       location: 'Downtown Emporia, Kansas',
-      description: 'Bike racing recognized nationally with a wide variety of racing events. Many food vendors and volunteers get together and have a good time with the local community.',
+      description: 'Festival held every year in downtown Emporia Kansas celebreating the day of the dead with music, dancing, food games and fun for everyone!',
     },
     {
       id: 2,
-      title: 'Third Friday Art Walk',
-      date: '06/16/23',
-      location: '609 N 6th St, Kansas City, KS 66101',
-      description: 'Third friday art walk supports all of the local artists, chefs, and more. Stop by to view all of the work and stay for the community!'
+      title: 'Scott Elementary School Carnival',
+      date: '10/13/23',
+      location: 'Scott Magnet Elementary School Topeka, Kansas',
+      description: 'Scott is hosting a carnival at school in order to raise money and make fun games, food and events for the entire family.'
     },
     {
       id: 3,
-      title: 'La Plasita',
-      date: '06/10/23',
-      location: 'Central Ave & N 12th St. Kansas City, Kansas 66102',
-      description: 'Every saturday vendors are set up in bethany park to sell food, drinks, toys, and many souvenirs. Hosted by CABAKCK. '
+      title: 'Third Friday Art Walk',
+      date: '10/13/23',
+      location: '609 N 6th St, Kansas City, KS 66101',
+      description: 'Every third friday of every month EPIC clay studio hosts an art walk where vendors can come set up and sell food and all of their different art work including paintings, clay, and much more.'
     },
     {
       id: 4,
-      title: 'La Plasita',
-      date: '06/17/23',
-      location: 'Central Ave & N 12th St. Kansas City, Kansas 66102',
-      description: 'Every saturday vendors are set up in bethany park to sell food, drinks, toys, and many souvenirs. Hosted by CABAKCK. '
+      title: 'Tractor Supply Co. Anniversary',
+      date: '10/21/23',
+      location: '710 NE US 24 HWY, Topeka, KS 66608',
+      description: 'Tractor Supply Co. is celebrating their anniversary of being open, we will be there at 7am starting with breakfast burritos, See you there.'
     },
     {
       id: 5,
-      title: 'La Plasita',
-      date: '06/24/23',
-      location: 'Central Ave & N 12th St. Kansas City, Kansas 66102',
-      description: 'Every saturday vendors are set up in bethany park to sell food, drinks, toys, and many souvenirs. Hosted by CABAKCK. '
+      title: 'Dis de los Muertos',
+      date: '11/04/23',
+      location: '1120 Central Avenue, Kansas City, KS 66102',
+      description: 'Festival held every year on the first saturday of November near downtown Kansas City with live music, various amount of food vendors, traditional mexican clothing and more.'
     },
   ];
 
