@@ -12,6 +12,5 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 This is a repo for conchiscuisine.com
+This website holds the image gallery for Conchis Cuisine, as well as information about upcoming events, and more details of the services that are provided.
